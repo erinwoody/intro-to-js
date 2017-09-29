@@ -73,7 +73,7 @@ let myNumber = 22;
 let myString = "dog";
 let myBoolean = true;
 // This one's a little tricky - think carefully about what makes a value "undefined"!
-let myUndefined = undefined;
+let myUndefined;
 // A:
 
 
@@ -177,7 +177,7 @@ if(false){
 } else {
 	console.log("False!");
 }
-// A: true
+// A: false
 
 
 // 25.
@@ -186,7 +186,7 @@ if(-5 && 5){
 } else {
 	console.log("False!");
 }
-// A: false
+// A: true
 
 
 // 26.
@@ -204,7 +204,7 @@ if({}){
 } else {
 	console.log("False!");
 }
-// A: false
+// A: true
 
 
 // 28.
@@ -222,7 +222,7 @@ if(new Date()){
 } else {
 	console.log("False!");
 }
-// A: false
+// A: true
 
 
 // 30.
